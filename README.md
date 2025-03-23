@@ -31,16 +31,7 @@ Bu proje, **Yusuf Kızıl** adında bir profesyonel için tasarlanmış, modern 
 
 ## 📸 Ekran Görüntüleri
 
-### Ana Sayfa
-![Ana Sayfa](screenshots/homepage.png)
 
-### Yönetim Paneli
-![Yönetim Paneli](screenshots/dashboard.png)
-
-### Giriş Ekranı
-![Giriş Ekranı](screenshots/login.png)
-
-*(Ekran görüntülerini `screenshots/` klasörüne ekleyerek yukarıdaki yolları güncelleyin.)*
 
 ---
 
