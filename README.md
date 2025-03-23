@@ -1,6 +1,6 @@
 # Yusuf Kızıl - Kişisel Web Sitesi ve Yönetim Paneli
 
-![Proje Banner](https://via.placeholder.com/1200x400.png?text=Yusuf+Kızıl+-+Kişisel+Web+Sitesi)  
+![Proje Banner]()  
 *Modern, dinamik ve yönetilebilir bir kişisel web sitesi projesi.*
 
 ---
@@ -25,13 +25,19 @@ Bu proje, **Yusuf Kızıl** adında bir profesyonel için tasarlanmış, modern 
 - **Veritabanı**: MySQL
 - **Kütüphaneler**:
   - Font Awesome (İkonlar)
-  - Chart.js (Opsiyonel grafikler için)
 
 ---
 
 ## 📸 Ekran Görüntüleri
 
+### Ana Sayfa
+![Ana Sayfa]()
 
+### Yönetim Paneli
+![Yönetim Paneli]()
+
+### Giriş Ekranı
+![Giriş Ekranı]()
 
 ---
 
@@ -44,6 +50,70 @@ Bu proje, **Yusuf Kızıl** adında bir profesyonel için tasarlanmış, modern 
 - Web tarayıcısı (Chrome, Firefox, vb.)
 
 ### Adım Adım Kurulum
-1. **Depoyu Klonlayın**:
-   ```bash
-   git clone https://github.com/muhammetyusufkizil/kisiselweb.git
+1. **Dosyaları İndirin**:
+   - Bu depoyu indirin veya ZIP olarak yükleyin.
+2. **Dosyaları Sunucuya Taşıyın**:
+   - Dosyaları `htdocs` klasörüne (örneğin, `D:\xamp\htdocs\yusuf-kizil-personal-website`) taşıyın.
+3. **Veritabanını Oluşturun**:
+   - `db.sql` dosyasını MySQL’e import edin:
+     ```sql
+     CREATE DATABASE personal_website;
+     ```
+   - PHPMyAdmin üzerinden `personal_website` veritabanına `db.sql` dosyasını yükleyin.
+4. **Veritabanı Bağlantısını Yapılandırın**:
+   - `admin/config.php` dosyasını açın ve bağlantı bilgilerini güncelleyin:
+     ```php
+     $host = "localhost";
+     $dbname = "personal_website";
+     $username = "root";
+     $password = "";
+     ```
+5. **Sunucuyu Başlatın**:
+   - XAMPP/WAMP üzerinde Apache ve MySQL servislerini başlatın.
+6. **Projeyi Çalıştırın**:
+   - Tarayıcıda `http://localhost/yusuf-kizil-personal-website/admin/index.php` adresine gidin.
+   - Varsayılan giriş bilgileri:
+     - Kullanıcı Adı: `admin`
+     - Şifre: `admin123`
+
+---
+
+## 🖥️ Kullanım
+
+### Yönetim Paneli
+- **Giriş Yapın**: Varsayılan kullanıcı adı ve şifre ile giriş yapın.
+- **İçerik Yönetimi**: Ana sayfa, hakkımda, hizmetler ve portfolyo bölümlerini düzenleyin.
+- **Hizmet ve Portfolyo Yönetimi**: Yeni hizmet/portfolyo ekleyin veya mevcut olanları silin.
+- **Profil Düzenleme**: Admin adını, e-postasını ve profil fotoğrafını güncelleyin.
+- **Siteyi Görüntüle**: Sidebar’daki “Siteyi Görüntüle” butonu ile ana siteyi yeni sekmede açın.
+
+### Ana Site
+- **Ana Sayfa**: Profesyonel bir tanıtım bölümü.
+- **Hakkımda**: Kişisel bilgiler ve istatistikler.
+- **Hizmetler**: Sunulan hizmetlerin listesi.
+- **Portfolyo**: Tamamlanan projeler.
+- **İletişim**: İletişim formu ve bilgiler.
+
+---
+
+## 🤝 Katkıda Bulunma
+
+Bu projeye katkıda bulunmak isterseniz, lütfen bir Pull Request gönderin. Önerileriniz ve katkılarınız her zaman bekleniyor!
+
+---
+
+## 📜 Lisans
+
+Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına göz atabilirsiniz.
+
+---
+
+## 📬 İletişim
+
+- **Yusuf Kızıl**
+- E-posta: 
+- GitHub: [github.com/[muhammetyusufkizill]](https://github.com/[muhammetyusufkizill])
+
+---
+
+⭐ **Bu projeyi beğendiyseniz, lütfen bir yıldız bırakmayı unutmayın!** ⭐
